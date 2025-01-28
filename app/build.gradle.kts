@@ -25,6 +25,10 @@ android {
         create("mvvm") {
             dimension = "pattern"
         }
+        create("task") {
+            isDefault = true
+            dimension = "pattern"
+        }
         create("tea") {
             dimension = "pattern"
         }
